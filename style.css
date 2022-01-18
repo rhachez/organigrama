@@ -62,7 +62,7 @@ body {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 5px;
-  height: 836px;
+  height: 817px;
   background: var(--black);
 }
 
@@ -191,6 +191,16 @@ body {
   height: 40px;
   background: var(--black);
 }
+.level-3-wrapper > li.li-mig::before {
+  content: "";
+  position: absolute;
+  bottom: 108%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 41px;
+  background: var(--black);
+}
 .level-3-wrapper > li::before {
   /* content: "";
   position: absolute;
@@ -292,7 +302,7 @@ body {
   .level-2-wrapper::before {
     left: -20px;
     width: 5px;
-    height: 786px;
+    height: 954px;
     top: 52px;
   }
 
