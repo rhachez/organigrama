@@ -13,6 +13,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+#phone{
+  font-weigth:700;
+}
 
 ol {
   list-style: none;
